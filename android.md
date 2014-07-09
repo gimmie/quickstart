@@ -5,18 +5,18 @@ However before start with Android SDK, here is the first few steps you need to r
 your key, secret that use when calling and sending information to our backend.
 
 1. [Signup and create game on Gimmie](https://portal.gimmieworld.com/games/new)
-2. Login to portal and going to `Games`, select your game and click on `Developers` tab
+2. Login to portal and going to __Games__, select your game and click on __Developers__ tab
 
 ## Integrate Android SDK
 
 ### Import Gimmie SDK to Eclipse
 
 - After register your company and create your game, you can start integrate sdk by download [latest Gimmie SDK](http://gimmieworld.s3.amazonaws.com/sdk/gimmie-android-latest.zip)
-- Unzip the sdk file and import all files to Eclipse by select ___Import___
+- Unzip the sdk file and import all files to Eclipse by select __Import__
 
 ![Eclipse import project menu](images/android-sdk/android-sdk1.png)
 
-- Choose ___Android > Existing Android code into Workspace___
+- Choose __Android > Existing Android code into Workspace__
 
 ![Eclipse android code menu](images/android-sdk/android-sdk2.png)
 
