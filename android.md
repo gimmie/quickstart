@@ -12,14 +12,30 @@ your key, secret that use when calling and sending information to our backend.
 ### Import Gimmie SDK to Eclipse
 
 - After register your company and create your game, you can start integrate sdk by download [latest Gimmie SDK](http://gimmieworld.s3.amazonaws.com/sdk/gimmie-android-latest.zip)
-- Unzip the sdk file and import all files to Eclipse by select import and choose ___Android > Existing Android code into Workspace___
+- Unzip the sdk file and import all files to Eclipse by select ___Import___
+
+![Eclipse import project menu](images/android-sdk/android-sdk1.png)
+
+- Choose ___Android > Existing Android code into Workspace___
+
+![Eclipse android code menu](images/android-sdk/android-sdk2.png)
+
 - Select Gimmie sdk folder and you will see Gimmie SDK project including all dependencies that Gimmie SDK needs
+
+![Gimmie project and all dependencies](images/android-sdk/android-sdk3.png) 
+
 - Click __Finish__ to finish import Gimmie SDK
 
 ### Link Gimmie SDK to your project
 
 - Right click on your application folder and select __Properties__
+
+![Project properties](images/android-sdk/android-sdk4.png)
+
 - Select __Android__ and in __Library__ box click __Add__
+
+![Project library](images/android-sdk/android-sdk5.png)
+
 - Select __Gimmie__ project and click __OK__
 - In your __AndroidManifest.xml__ file add this permissions to allow your application connect to internet
 
