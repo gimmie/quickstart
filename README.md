@@ -1,4 +1,3 @@
-quickstart
-==========
+#Quickstart
 
-Quick start documentations for all Gimmie libraries and plugins.
+Collection of quickstart documentation for all Gimmie sdk and plugins
