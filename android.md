@@ -81,6 +81,40 @@ your key, secret that use when calling and sending information to our backend.
 </manifest>
 ```
 
+### Initialize
+
+- Add the following to initialize Gimmie, in onCreate() of your activity
+
+```Java
+    GimmieComponents components = GimmieComponents.getInstance(this);
+    Gimmie gimmie = components.getGimmie();
+    gimmie.login("user_id");
+```
+
+- Add the following to instruct Gimmie to show notifications in the correct context – you can put it in onResume():
+
+```Java
+    GimmieComponents.registerNotification(this);
+```
+
+### Call Gimmie
+
+- Show Rewards Catalog with the following
+
+```Java
+    // `this` is your activity instance
+    GimmieComponents.showRewardsCatalogue(this);
+```
+
+- Trigger events with the following
+
+```Java
+    Gimmie gimmie = GimmieComponents.getInstance(this).getGimmie();
+    gimmie.trigger("event_name");
+```
+
+__event_name__ is a unique identifier for events; You can create events and its assocaited actions(give 10 points? give 1 rewards?) in the [Gimmie portal](https://portal.gimmieworld.com/).
+
 - That's all
 
 For more information, you can visit [API Docs](http://developer.gimmieworld.com/documentation/android/reference/packages.html) for more detail information.
