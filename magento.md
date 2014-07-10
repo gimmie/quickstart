@@ -10,3 +10,10 @@ Here is events include in plugin currently, you can create it manually in portal
 - __magento_purchase_item_in_birthday_month__, This event is called when user purchases item in their birthday month.
 - __magento_top_spender_of_the_month__, This event is called in the first day of next month on the user who purchases the most.
 
+## Installation
+
+Gimmie plugin is available in Magento Commerce site. Here are steps to install Magento plugin.
+
+- Get the plugin from [Magento commerce](http://www.magentocommerce.com/magento-connect/gimmie-rewards.html)
+
+![Gimmie on Magento Commerce](images/magento/magento1.png)
