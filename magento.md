@@ -14,21 +14,38 @@ Here is events include in plugin currently, you can create it manually in portal
 
 Gimmie plugin is available in Magento Commerce site. Here are steps to install Magento plugin.
 
-1. Get the plugin from [Magento commerce](http://www.magentocommerce.com/magento-connect/gimmie-rewards.html)
+- Get the plugin from [Magento commerce](http://www.magentocommerce.com/magento-connect/gimmie-rewards.html)
+
 ![Gimmie on Magento Commerce](images/magento/magento1.png)
-2. Click on __Install Now__ and check on __I agree to the extension license agreement__ and Click on __Get Extension Key__
+
+- Click on __Install Now__ and check on __I agree to the extension license agreement__ and Click on __Get Extension Key__
+
 ![Get Extension Key](images/magento/magento2.png)
-3. Copy the url from text box for using in your Magento site.
+
+- Copy the url from text box for using in your Magento site.
+
 ![Extension URL](images/magento/magento3.png)
-4. Login to your Magento admin page
+
+- Login to your Magento admin page
+
 ![Magento admin page](images/magento/magento4.png)
-5. Go to __System > Magento Connect > Magento Connect Manager__
+
+- Go to __System > Magento Connect > Magento Connect Manager__
+
 ![Magento ConnectManager menu](images/magento/magento5.png)
-6. Login again with your admin username and password
+
+- Login again with your admin username and password
+
 ![Magento ConnectManager login page](images/magento/magento6.png)
-7. Paste the URL from step 3 to textfield under __Install New Extensions__ section and click __Install__
+
+- Paste the URL from step 3 to textfield under __Install New Extensions__ section and click __Install__
+
 ![Install New Extensions image](images/magento/magento7.png)
-8. Go back to Magento Admin page and go to __System > Configuration__
+
+- Go back to Magento Admin page and go to __System > Configuration__
+
 ![Magento Configuration menu](images/magento/magento8.png)
-9. Gimmie Configuration is in the first menu on the left and here are options that you can configure Gimmie.
+
+- Gimmie Configuration is in the first menu on the left and here are options that you can configure Gimmie.
+
 ![Gimmie Configuration for Magento](images/magento/magento9.png)
