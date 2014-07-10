@@ -49,3 +49,7 @@ Gimmie plugin is available in Magento Commerce site. Here are steps to install M
 - Gimmie Configuration is in the first menu on the left and here are options that you can configure Gimmie.
 
 ![Gimmie Configuration for Magento](images/magento/magento9.png)
+
+## Add reward catalog link to your front page
+
+To add reward catalog to your ecommerce site, Go to __System > Configuration__ in Admin page and select __Gimmie Rewards__ from left menu to open Gimmie configuration. Under __Gimmie Popup Views__, change __Add Gimmie menu__ to __Yes__ and save the config.
