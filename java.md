@@ -1,12 +1,13 @@
-#Android API Integration
+#Java API
 
-Gimmie Android API is a wrapper class for calling Gimmie in Android without need to do restful call by yourself. Gimmie API
-wrapper can get from [Gimmie SDK](http://gimmieworld.s3.amazonaws.com/sdk/gimmie-android-latest.zip) file by extract the zip 
-and look into __libs__ directory.
+Gimmie Java API is a wrapper class for calling Gimmie in Java application or
+Android  without need to do restful call by yourself. Gimmie API wrapper can get
+from [Gimmie SDK](http://gimmieworld.s3.amazonaws.com/sdk/gimmie-android-latest.zip)
+file by extract the zip and look into __libs__ directory.
 
-## Integrate with Gradle
+## Gimmie API with Gradle
 
-For Gimmie API Library, you can integrate with gradle by following below steps
+For Gimmie API Library, you can add to Gradle by follow below steps
 
 - Add Gimmie maven repository to __build.gradle__ file
 
@@ -26,8 +27,8 @@ dependencies {
 }
 ```
 
-In Android project, you might want to add transitive and make it value as false to exclude duplicate library when compiles
-(json, http common library, ...)
+In Android project, you might want to add transitive and make it value as false
+to exclude duplicate library when compiles (json, http common library, ...)
 
 ```groovy
 dependencies {
