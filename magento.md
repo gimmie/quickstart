@@ -1,6 +1,6 @@
 # Magento quickstart
 
-Gimmie plugin for Magento provides gamifications tool for your ecommerce site. The plugin includes events that you can configure in [Gimmie portal](https://portal.gimmieworld.com) for give out points or instant rewards. 
+Gimmie plugin for Magento provides gamifications tool for your ecommerce site. The plugin includes events that you can configure in [Gimmie portal](https://portal.gimmieworld.com) for give out points or instant rewards.
 
 Here is events include in plugin currently, you can create it manually in portal or wait when someone done it it your site to create automatically with __do nothing__ action.
 
@@ -53,3 +53,7 @@ Gimmie plugin is available in Magento Commerce site. Here are steps to install M
 ## Add reward catalog link to your front page
 
 To add reward catalog to your ecommerce site, Go to __System > Configuration__ in Admin page and select __Gimmie Rewards__ from left menu to open Gimmie configuration. Under __Gimmie Popup Views__, change __Add Gimmie menu__ to __Yes__ and save the config.
+
+The link will show up here
+
+![Gimmie popup menu](images/magento/magento10.png)
