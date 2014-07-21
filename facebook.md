@@ -36,19 +36,15 @@ You will need PHP web hosting and developer knowledge for the installation. Here
 
 ![Status & Review - Form](images/facebook/facebook6.png)
 
-- Create a Facebook Platform Game in [Gimmie Portal](https://portal.gimmieworld.com/games/new)
+- Create a Facebook Platform Game and complete the registration in [Gimmie Portal](https://portal.gimmieworld.com/games/new)
 
 ![Gimmie Portal](images/facebook/facebook7.png)
 
-- Look for the __config.php__ file, update the Game Key and Secret found in Gimmie Portal after creating the Game, update Facebook App ID and Secret found on the Facebook App.
-
-![Fanpage Reward App config file](images/facebook/facebook8.png)
+- Open __config.php__ file with your favourite text editor, update the Game Key and Secret found in Gimmie Portal after creating the Game, update Facebook App ID and Secret found on the Facebook App.
 
 - Upload all the fanpage reward app files to your server that point to the domain you set for your Page Tab URL earlier.
 
-![Upload](images/facebook/facebook9.png)
+- Add the new app to your fan page by going to https://www.facebook.com/dialog/pagetab?api_key=__FACEBOOK_APP_ID___&next=http://www.facebook.com. Replace __FACEBOOK_APP_ID___ with the app you create earlier
 
-- Add the new app to your fan page by going to https://www.facebook.com/dialog/pagetab?api_key=__FACEBOOK_APP_ID___&next=www.facebook.com. Replace __FACEBOOK_APP_ID___ with the app you create earlier
-
-![Add App to Fan Page](images/facebook/facebook10.png)
+![Add App to Fan Page](images/facebook/facebook8.png)
 
