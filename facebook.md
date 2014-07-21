@@ -10,7 +10,7 @@ Here are the events included in app currently:
 
 ## Installation
 
-You will need PHP web hosting and developer knowledge for the installation. Here are the steps to install Facebook Reward App on your Fanpage.
+You will need PHP web hosting that has SSL and developer knowledge for the installation. Here are the steps to install Facebook Reward App on your Fanpage.
 
 - Get the fanpage reward app files from [Github](https://github.com/gimmie/facebook-reward-app)
 
@@ -28,7 +28,7 @@ You will need PHP web hosting and developer knowledge for the installation. Here
 
 ![Settings - Add Platform](images/facebook/facebook4.png)
 
-- Choose __Page Tab__, fill in Contact Email and Page Tab Name. Enter the URL of your fanpage reward app you going to upload to, ensure trailing slash (e.g. http://www.myowndomain.com/, http://www.myowndomain.com/facebook/ ) for Page Tab URL. Upload a Page Tab Image (111px x 74px) for the Page Tab icon. Click Save.
+- Choose __Page Tab__, fill in Contact Email and Page Tab Name. Enter the URL of your fanpage reward app you going to upload to, ensure trailing slash (e.g. http://www.myowndomain.com/, http://www.myowndomain.com/facebook/ ) for Page Tab URL and Secure Page Tab URL. Upload a Page Tab Image (111px x 74px) for the Page Tab icon. Click Save.
 
 ![Settings - Page Tab Form](images/facebook/facebook5.png)
 
