@@ -6,3 +6,4 @@ Collection of quickstart documentation for all Gimmie sdk and plugins
 - [Java](java.md)
 - [Objective-C](objective-c.md)
 - [Magento](magento.md)
+- [Facebook](facebook.md)
