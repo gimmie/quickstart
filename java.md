@@ -39,3 +39,37 @@ dependencies {
 ```
 
 That's all
+
+## Sample Java code
+
+```Java
+import com.gimmie.Gimmie;
+import com.gimmie.Configuration;
+
+public class Sample {
+
+  public static void main(Object args...) {
+    HashMap<String, Object> template = new HashMap<String, Object>();
+    template.put(Configuration.API_KEY, "game_key_from_portal");
+    template.put(Configuration.API_SECRET, "game_secret_from_portal");
+
+    Configuration configuration = new Configuration(template);
+    Gimmie gimmie = Gimmie.getInstance(configuration);
+
+    gimmie.trigger("event_name",
+      new AsyncResult<CombineResponse>() {
+
+        public void getResult(CombineResponse response) {
+          // Handle response here
+        }
+
+        public void getError(GimmieError error) {
+          // Handle error here
+        }
+
+      });
+  }
+
+}
+
+```
