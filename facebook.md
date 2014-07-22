@@ -40,11 +40,11 @@ You will need PHP web hosting that has SSL and developer knowledge for the insta
 
 ![Gimmie Portal](images/facebook/facebook7.png)
 
-- Open __config.php__ file with your favourite text editor, update the Game Key and Secret found in Gimmie Portal after creating the Game, update Facebook App ID and Secret found on the Facebook App.
+- Open __config.php__ file with your favourite text editor, update config file with the Game Key and Secret found in Gimmie Portal after creating the Game, also update Facebook App ID and Secret found on the Facebook App.
 
 - Upload all the fanpage reward app files to your server that point to the domain you set for your Page Tab URL earlier.
 
-- Add the new app to your fan page by going to https://www.facebook.com/dialog/pagetab?api_key=__FACEBOOK_APP_ID___&next=http://www.facebook.com. Replace __FACEBOOK_APP_ID___ with the app you create earlier
+- Add the new app to your fan page by going to https://www.facebook.com/dialog/pagetab?api_key=__FACEBOOK_APP_ID___&next=http://www.facebook.com. Replace __FACEBOOK_APP_ID___ with the app you create earlier. You should see the app for your option. Select it and click __Add Page Tab__
 
 ![Add App to Fan Page](images/facebook/facebook8.png)
 
