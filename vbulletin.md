@@ -39,7 +39,7 @@ You will need vBulletin hosting that allow plugin installation. Some basic vBull
 
  - To add the Rewards button, Search ```ul id="navtabs"``` under Styles & Templates > Search in Template. 
 
- - Click on "navbar" file. Find ``` <ul id="navtabs" class="navtabs .... `` in the Template field, add << <li><a href="javascript:;" gm-view="catalog" class="navtab"><span>Rewards</span></a></li> >> just above the </ul> 
+ - Click on "navbar" file. Find ``` <ul id="navtabs" class="navtabs .... `` in the Template field, add << <li><a href="javascript:;" gm-view="catalog" class="navtab"><span>Rewards</span></a></li> >> just above the ```</ul>```
 
  e.g.
 
