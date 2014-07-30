@@ -44,12 +44,12 @@ You will need vBulletin hosting that allow plugin installation. Some basic vBull
  e.g.
 
  ```
- &lt;ul id="navtabs" class="navtabs floatcontainer&lt;vb:if condition="$show['member'] AND $notifications_total"&gt; notify&lt;/vb:if&gt;"&gt;
+ <ul id="navtabs" class="navtabs floatcontainer<vb:if condition="$show['member'] AND $notifications_total"> notify</vb:if>">
  		{vb:raw template_hook.navtab_start}
  		{vb:raw navigation}
  		{vb:raw template_hook.navtab_end}
-     &lt;li&gt;&lt;a href="javascript:;" gm-view="catalog" class="navtab">&lt;span&gt;Rewards&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
+     <li><a href="javascript:;" gm-view="catalog" class="navtab"><span>Rewards</span></a></li>
+ </ul>
  ```
  
  - To add user points beside Username, Search << li class="welcomelink" >> under Styles & Templates > Search in Template. 
@@ -59,6 +59,6 @@ You will need vBulletin hosting that allow plugin installation. Some basic vBull
  e.g. 
 
  ```
-  &lt;li class="welcomelink">{vb:rawphrase welcome_x_link_y, {vb:raw bbuserinfo.username}, {vb:link member, {vb:raw bbuserinfo}}} &lt;span gm-view="profile" style="cursor:pointer;font-weight:bold;"&gt;(&lt;span class="gimmie-user-points"&gt;...&lt;/span&gt; points) &lt;/span> &lt;/li&gt;
+  <li class="welcomelink">{vb:rawphrase welcome_x_link_y, {vb:raw bbuserinfo.username}, {vb:link member, {vb:raw bbuserinfo}}} <span gm-view="profile" style="cursor:pointer;font-weight:bold;">(<span class="gimmie-user-points">...</span> points) </span> </li>
  ```
  
