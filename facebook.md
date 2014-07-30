@@ -10,7 +10,7 @@ Here are the events included in app currently:
 
 ## Installation
 
-You will need PHP web hosting that has SSL and developer knowledge for the installation. Here are the steps to install Facebook Reward App on your Fanpage.
+You will need PHP web hosting that has SSL and developer knowledge for the installation. Here are the steps to install Facebook Reward App on your Fanpage. You can get free SSL certificate from https://www.startssl.com/ or free SSL hosting from https://www.heroku.com/
 
 - Get the fanpage reward app files from [Github](https://github.com/gimmie/facebook-reward-app)
 
