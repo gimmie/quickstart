@@ -15,25 +15,29 @@ Here are the events included currently:
 
 ## Installation
 
-You will need vBulletin hosting that allow plugin installation. Some basic vBulletin and developer knowledge will be useful for the installation. This plugin is only applicable for vBulletin v4 and below. Here are the steps to install Gimmie Reward for vBulletin plugin.
+This plugin is only applicable for vBulletin v4 and below. You will need vBulletin hosting that allow plugin installation. Some basic vBulletin and developer knowledge will be useful for the installation. Here are the steps to install Gimmie Reward for vBulletin plugin.
 
-- Get the plugin zip file from [Github](https://github.com/gimmie/vbulletin-v4)
+- Get the plugin file from [Github](https://github.com/gimmie/vbulletin-v4)
 
 ![Gimmie Reward for vBulletin plugin on Github](images/vbulletin/vbulletin1.png)
 
-- Extract the zip file and upload everything in the /upload folder to the root folder of your vbulletin forum.
+- Extract the file and upload everything in the __/upload__ folder to the root folder of your vbulletin forum.
+
+- Create a vBulletin Game and complete the registration in [Gimmie Portal](https://portal.gimmieworld.com/games/new)
+
+![Add/Import Product](images/vbulletin/vbulletin2.png)
 
 - From your vbulletin Control Panel, go to Plugins & Products -> Manage Products -> Add/Import Product and put ./XML/product_gimmie.xml in the "OR import the XML file from your server" box and click
 
-![Add/Import Product](images/vbulletin/vbulletin2.png)
+![Add/Import Product](images/vbulletin/vbulletin3.png)
 
 - From your vBulletin Control Panel, go to -> Settings -> Options
 
 - Click "Edit Settings" for Gimmie Loyalty Program Setting
 
-- Fill in the __Gimmie KEY__ and __Gimmie Secret__ and update the option accordingly on Gimmie Loyalty Program Setting
+- Fill in the __Gimmie KEY__ and __Gimmie Secret__ with the Game Key and Secret found in Gimmie Portal after creating the Game and update the option accordingly
 
-![Gimmie Loyalty Program Setting](images/vbulletin/vbulletin3.png)
+![Gimmie Loyalty Program Setting](images/vbulletin/vbulletin4.png)
 
 ## Add reward catalog link to your vbulletin
 
