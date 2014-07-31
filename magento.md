@@ -6,9 +6,12 @@ Here is events include in plugin currently, you can create it manually in portal
 
 - __refer_a_friend__, This event is called when user share your website link to friends and their friend click on the link and register to your ecommece site. The user who share the link will get the points or actions as you configure in the portal.
 - __register_user__, This event is called when user is success register to your ecommerce site.
-- __purchase_item__, This event is called when user purchases item from your ecommerce site.
+- __login_user__, This event is called when user is success login to the site.
+- __refer_a_friend__, This event is called when user give your site link to their friend and their friend register to your site.
+- __purchase_item__, This event is called when user purchases item from your ecommerce site and the item is shippted to customer.
 - __purchase_item_in_birthday_month__, This event is called when user purchases item in their birthday month.
 - __top_spender_of_the_month__, This event is called in the first day of next month on the user who purchases the most.
+- __subscribe_newsletter__, This event is called when customer sign up and subscribe to your site.
 
 ## Installation
 
