@@ -128,7 +128,7 @@ transfering points and rewards that user has earned while login as guest.
 
 - Duplicated scribe library
 
-```java
+```
 UNEXPECTED TOP-LEVEL EXCEPTION:
 java.lang.IllegalArgumentException: already added: Lorg/scribe/builder/api/Api;
 ```
@@ -137,7 +137,7 @@ In plugin folder, remove __scribe-(version).jar__ file because other library alr
 
 - Duplicated Android Supported library
 
-```java
+```
 UNEXPECTED TOP-LEVEL EXCEPTION:
 java.lang.IllegalArgumentException: already added: Landroid/support/v4/hardware/display/DisplayManagerCompat;
 ```
@@ -146,7 +146,7 @@ In plugin folder, remove __android-support-v4.jar__ file because other library a
 
 - Missing Sherlock resources
 
-```java
+```
 /path/in/game/gimmie_Android_SDK_Unity/res/values/gm__styles.xml:4: error: Error retrieving parent for item: No resource found that matches the given name '@style/Theme.Sherlock.Light'.
 /path/in/game/gimmie_Android_SDK_Unity/res/values/gm__styles.xml:5: error: Error: No resource found that matches the given name: attr 'actionBarStyle'.
 ```
