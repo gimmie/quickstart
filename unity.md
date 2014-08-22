@@ -126,6 +126,15 @@ transfering points and rewards that user has earned while login as guest.
 
 ## Known Issues
 
+- What's the parameter in this function `GimmieWrapper.Login("")`
+
+Login function take username parameter generated from your system or game. It can be timestamp that saved or 
+Facebook ID when user open your game and login with Facebook. This is for linking information in Gimmie with
+your system.
+
+__We don't generated__ any login for you because Gimmie is additional information to your user information.
+We don't store your user firstname lastname or even email when your login.
+
 - Duplicated scribe library
 
 ```
