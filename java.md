@@ -14,7 +14,7 @@ For Gimmie API Library, you can add to Gradle by follow below steps
 ```groovy
 repositories {
   maven {
-    url = 'https://developer.gimmieworld.com/releases/maven/'
+    url = 'http://maven.gimmie.io/'
   }
 }
 ```
