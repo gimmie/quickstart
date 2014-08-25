@@ -31,7 +31,7 @@ download and put together with C# files but it gives pre-made Gimmie UI that you
 
 ## Android
 
-- Download [Gimmie SDK for Unity](http://gimmieworld.s3.amazonaws.com/sdk/Gimmie-AndroidSDK-1.8.1-Unity.zip)
+- Download [Gimmie SDK for Unity](http://gimmieworld.s3.amazonaws.com/sdk/Gimmie-AndroidSDK-1.8.2-Unity.zip)
 - Extract and copy 'res/' and all files in 'libs'
 - Create a binding class, you can use a basic one here: [GimmieBinding.cs](https://github.com/gimmie/unity/blob/master/GimmieBinding.cs)
 - Modify AndroidManifest.xml to include all the Gimmie declarations. See [example here](https://github.com/gimmie/unity/blob/master/android/AndroidManifest.xml)
