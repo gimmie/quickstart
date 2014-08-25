@@ -45,13 +45,15 @@ Assets/
             res/
             AndroidManifest.xml
             GimmieBinding.cs
-            gimmie.jar
-            actionbar sherlock.jar
-            android-support-v4.jar
+            gimmie-api-1.0.3.jar
             MixpanelAPI.jar
-            pager indicator.jar
+            Parse-1.5.0.jar
             scribe-1.3.5.jar
             tagsoup-1.2.1.jar
+            unity-actionbarsherlock.jar
+            unity-gimmie-components.jar
+            unity-viewpager.jar
+            unity-websocket.jar
         Your-other-plugins/
 ```
 
