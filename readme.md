@@ -8,3 +8,4 @@ Collection of quickstart documentation for all Gimmie sdk and plugins
 - [Magento](magento.md)
 - [Facebook](facebook.md)
 - [Unity](unity.md)
+- [Widget](widget.md)
