@@ -3,12 +3,40 @@
 Gimmie Widget provides gamification components for website that you can integrate by just passing javascript
 on your page.
 
-## Components
+## Embed to your website.
+
+Copy below script to put in your web site.
+
+```html
+<div id="gimmie-root"></div>
+<script type="text/javascript">
+    var _gimmie = {
+        "endpoint": "http://yoursite.tld/proxy",
+        "key": "<key from Gimmie portal>"
+    };
+    (function(d) {
+        var js, id = "gimmie-widget",
+            ref = d.getElementsByTagName("script")[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement("script");
+        js.id = id;
+        js.async = true;
+        js.src = "//api.gimmieworld.com/cdn/gimmie-widget2.all.js";
+        ref.parentNode.insertBefore(js, ref);
+    }(document));
+</script>
+```
+
+__Endpoint__ is live in your site. [Here is sample proxy code.](https://github.com/gimmieworld/GimmieProxies) and __Key__ is from Gimmie Portal which you can [register and get from our site.](https://www.gimmie.io)
+
+## Configuration
 
 Gimmie Widget consists of API and 4 pages, Profile, Catalog, Leaderboards and Help. It can disable some page by configuration and override the look and feel by css. Here is the configuration in json format.
 
 ```javascript
-  {
+  var _gimmie = {
     "user": {
         "name": "Name shows in profile page",
         "realname": "Real name shows when user redeem reward",
