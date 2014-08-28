@@ -81,6 +81,7 @@ Default country is __global__ which means only rewards set to global will show i
  - Security.framework
  - libicucore.dylib
 - Add __Gimmie__ type __Dictionary__ to Info.plist. Under it, add key __key__ and __secret__ with values from Gimmie portal.
+- Open your project Build Settings, select All and find Other Linker Flags. Add __-ObjC__ and __-all_load__ to that property.
 - Build the project with Xcode
 
 ### Rewards Country
