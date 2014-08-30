@@ -29,7 +29,7 @@ Copy below script to put in your web site.
 </script>
 ```
 
-__Endpoint__ is live in your site. [Here is sample proxy code.](https://github.com/gimmieworld/GimmieProxies) and __Key__ is from Gimmie Portal which you can [register and get from our site.](https://www.gimmie.io)
+__Endpoint__ is live in your site. [Here is sample proxy code.](https://github.com/gimmie/proxies) and __Key__ is from Gimmie Portal which you can [register and get from our site.](https://www.gimmie.io)
 
 ## Configuration
 
