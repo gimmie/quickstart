@@ -165,7 +165,15 @@ Gimmie Widget consists of API and 4 pages, Profile, Catalog, Leaderboards and He
         "most_points": "",
         "most_rewards": "",
         "most_reward_value": "",
-        "loading_leaderboard": ""
+        "loading_leaderboard": "",
+        
+        "notification_link_message" : "",
+        "notification_link"         : "",
     }
 };
 ```
+
+### Text options
+
+- __notification_link_message__ is message show under notification when user is logged in and when user click it will open a new page set in __notification_link__
+- __notification_link__ is a url that will open when user click on message. The url will concat with `_gimmie.user.external_id` so the final url will be `notification_link/user.external_id`
