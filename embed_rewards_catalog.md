@@ -19,3 +19,15 @@ For example if you are in php, serve [this file](https://github.com/gimmie/proxi
 ````html
 <script... data-gimmie-proxy="/connect" src=... />
 ````
+## Screenshots
+
+- Embeded catalog
+![Embeded catalog](/images/embed/rewards_catalog_embed)
+
+- Rewards detail
+![Rewards detail](/images/embed/rewards_catalog_embed_detail)
+![Rewards detail mobile](/images/embed/rewards_catalog_embed_detail_m)
+
+- Rewards redeemd
+![Rewards detail](/images/embed/rewards_catalog_embed_redeemed)
+![Rewards detail mobile](/images/embed/rewards_catalog_embed_redeemed_m)
