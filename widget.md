@@ -175,5 +175,21 @@ Gimmie Widget consists of API and 4 pages, Profile, Catalog, Leaderboards and He
 
 ### Text options
 
+![Notification with additional message](/images/widget/points.png)
+
 - __notification_link_message__ is message show under notification when user is logged in and when user click it will open a new page set in __notification_link__
 - __notification_link__ is a url that will open when user click on message. The url will concat with `_gimmie.user.external_id` so the final url will be `notification_link/user.external_id`
+
+## UI
+
+- Points Notification
+
+![Notification with additional message](/images/widget/points.png)
+
+- Level up notification
+
+![Level up notification](/images/widget/levelup.png)
+
+- Instant win notification
+
+![Instant win notification](/images/widget/instantwin.png)
