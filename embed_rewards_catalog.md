@@ -22,12 +22,12 @@ For example if you are in php, serve [this file](https://github.com/gimmie/proxi
 ## Screenshots
 
 - Embeded catalog
-![Embeded catalog](/images/embed/rewards_catalog_embed)
+![Embeded catalog](/images/embed/rewards_catalog_embed.png)
 
 - Rewards detail
-![Rewards detail](/images/embed/rewards_catalog_embed_detail)
-![Rewards detail mobile](/images/embed/rewards_catalog_embed_detail_m)
+![Rewards detail](/images/embed/rewards_catalog_embed_detail.png)
+![Rewards detail mobile](/images/embed/rewards_catalog_embed_detail_m.png)
 
 - Rewards redeemd
-![Rewards detail](/images/embed/rewards_catalog_embed_redeemed)
-![Rewards detail mobile](/images/embed/rewards_catalog_embed_redeemed_m)
+![Rewards detail](/images/embed/rewards_catalog_embed_redeemed.png)
+![Rewards detail mobile](/images/embed/rewards_catalog_embed_redeemed_m.png)
