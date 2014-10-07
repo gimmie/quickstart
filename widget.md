@@ -68,6 +68,8 @@ Gimmie Widget consists of API and 4 pages, Profile, Catalog, Leaderboards and He
         "shuffle_reward": true,
         // Default level icon in user profile page
         "default_level_icon": "",
+        // Override sponsor here box in catalog url
+        "sponsor_url": "",
         "pages": {
             // Catalog page option
             "catalog": {
