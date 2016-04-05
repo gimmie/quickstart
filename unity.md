@@ -29,7 +29,7 @@ download and put together with C# files but it gives pre-made Gimmie UI that you
     Debug.Log("JSON fields accessed: "+ j["response"]["user"]["awarded_points"].n);
 ```
 
-## Android
+## Android Component
 
 - Download [Gimmie SDK for Unity](http://gimmieworld.s3.amazonaws.com/sdk/Gimmie-AndroidSDK-1.8.4-Unity.zip)
 - Extract and copy 'res/' and all files in 'libs'
@@ -71,7 +71,7 @@ Rewards in Gimmie catalog can target to specific country, to show rewards in tar
 
 Default country is __global__ which means only rewards set to global will show in catalog.
 
-## iOS
+## iOS Component
 
 - Building and export project from Unity
 - Download iOS integration files([GMUnityIntegration.h](https://github.com/gimmie/unity/blob/master/ios/GMUnityIntegration.h) and [GMUnityIntegration.mm](https://github.com/gimmie/unity/blob/master/ios/GMUnityIntegration.mm)) and put in exported project
